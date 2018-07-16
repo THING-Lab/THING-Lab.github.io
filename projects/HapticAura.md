@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Haptic Aura, THING Lab"
+title: "Haptic Aura"
 ---
 
-Markdown project test [Jekyll](http://jekyllrb.com)
+Haptic Aura Temp Content [Jekyll](http://jekyllrb.com)
