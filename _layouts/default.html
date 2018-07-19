@@ -2,8 +2,27 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
+
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|IBM+Plex+Serif" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <link rel="stylesheet" type="text/css" href="/css/home.css">
     </head>
+
     <body>
+        <section class="nav">
+            <a class="nav-title" href="/">
+                <h1 class="logo-top">THING</h1>
+                <h1 class="logo-bot">LAB</h1>
+            </a>
+
+            <ul class="nav-links">
+                <li ><a class="nav-link" href="/Projects">PROJECTS</a></li>
+                <li><a class="nav-link" href="/Publications">PUBLICATIONS</a></li>
+                <li><a class="nav-link" href="/Courses">COURSES</a></li>
+                <li><a class="nav-link" href="/People">PEOPLE</a></li>
+            </ul>
+        </section>
+
         <div class="container">
         
         {{ content }}

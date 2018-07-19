@@ -1,0 +1,61 @@
+/* FEATURED WORK */
+.temp-work-img {
+    width: 50%;
+    background: #00d;
+    height: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.temp-work-img:hover {
+    background: #00f;
+}
+
+#featured-work {
+    margin-top: 40px;
+    /* padding: 0 5%; */
+    display: block;
+    
+}
+
+.section-head {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: grey;
+}
+
+.work-card {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.work-details {
+    display: inline-block;
+    width: 49%;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+.work-title {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    font-family: 'IBM Plex Serif', serif;
+    margin-top: -7px;
+}
+
+.work-title:hover {
+    color: grey;
+}
+
+.work-desc {
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* NEWS */

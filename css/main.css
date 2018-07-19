@@ -1,0 +1,94 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline;
+}
+
+h1, h2, h3 {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: unset;
+}
+
+/* NAV */
+.nav {
+    width: 98%;
+    margin: 0 auto;
+    padding: 10px 2.5% 10px 2.5%;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    border-bottom: 1px dashed #000;
+
+    font-family: 'IBM Plex Serif', serif;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+}
+
+.nav-title {
+    color: black;
+    background: white;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.logo-top {
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.logo-bot {
+    letter-spacing: 6px;
+    font-size: 18px;
+}
+
+.nav-links {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: grey;
+    background: white;
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 12px;
+    letter-spacing: 1px; /* for funzies  */
+}
+
+.nav-link:hover {
+    color: black;
+    /* background: black; */
+}
+
+/* COMPONENTS */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
