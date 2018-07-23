@@ -11,30 +11,15 @@
     background: #00f;
 }
 
-#featured-work {
-    margin-top: 40px;
-    /* padding: 0 5%; */
-    display: block;
-    
-}
-
-.section-head {
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    letter-spacing: 0.2em;
-    color: grey;
-}
-
 .work-card {
     width: 100%;
-    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .work-details {
     display: inline-block;
     width: 49%;
-    padding-left: 10px;
+    padding-right: 10px;
     vertical-align: top;
 }
 
@@ -54,8 +39,10 @@
 
 .work-desc {
     color: black;
-    line-height: 30px;
-    text-align: justify;
+    line-height: 1.3em;
+    font-size: 14px;
+    max-width: 75%;
+    /* text-align: justify; */
 }
 
 /* NEWS */

@@ -35,7 +35,7 @@ h1 {
 
 /* NAV */
 .nav {
-    width: 98%;
+    width: 95%;
     margin: 0 auto;
     padding: 10px 2.5% 10px 2.5%;
 
@@ -91,4 +91,60 @@ h1 {
     width: 90%;
     margin: 0 auto;
     padding-bottom: 20px;
+}
+
+section {
+    /* padding: 0 5%; */
+    display: block;
+    margin-top: 40px;   
+}
+
+.section-head {
+    display: block;
+    /* text-align: center; */
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+/* People */
+.person-card {
+    display: inline-block;
+    vertical-align:top;
+    width: 225px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.person-card:last-child {
+    margin-bottom: 0;
+}
+
+.person-img {
+    width: 100%;
+    display: inline-block;
+}
+
+.person-desc {
+    display: inline-block;
+    max-width: 100%;
+}
+
+.person-name {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.person-title, .person-affiliation {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.person-title {
+    font-weight: bold;
+}
+
+#researchers, #faculty {
+    align-items: top;
 }
