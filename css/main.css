@@ -158,18 +158,39 @@ section {
 }
 
 .event-link {
-    margin-left: 10%;
-    padding: 0;
-    text-decoration: underline;
     font-size: 16px;
+    display: inline-block;
+    margin-left: 20%;
+
+    vertical-align: top;
+    border: 2px solid black;
+    color: white;
+    padding: 12px 10px 10px 10px;
+    background: black;
+}
+
+.event-link:hover {
+    background: #888;
+    border: 2px solid #888;
+    color: white;
+}
+
+.event-details-container {
+    font-size: 16px;
+    display: inline-block;
+    width: 69%;
 }
 
 .event-desc {
-    font-size: 16px;
-    max-width: 80%;
-    margin: 10px auto;
+    /* max-width: 60%; */
+    margin: 10px 0;
+    text-align: justify;
 }
 
 .event-container {
     padding-bottom: 100px;
+}
+
+.event-title {
+    margin-top: 20px;
 }
