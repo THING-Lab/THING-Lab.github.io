@@ -1,0 +1,13 @@
+---
+layout: default
+title: THING Lab Events
+---
+<section id="events">
+    <h1 class="section-head">Upcoming Events</h1>
+    {% for post in site.posts %}
+        {% if post.path contains 'events' %}
+            <h1 class="event-title">{{ post.title }}</h1>
+            {{ post.content }}
+        {% endif %}
+    {% endfor %}
+</section>
