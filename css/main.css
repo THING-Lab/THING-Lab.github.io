@@ -160,7 +160,7 @@ section {
 .event-link {
     font-size: 16px;
     display: inline-block;
-    margin-left: 20%;
+    float: right;
 
     vertical-align: top;
     border: 2px solid black;
